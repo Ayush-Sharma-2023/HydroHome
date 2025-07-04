@@ -15,15 +15,15 @@ function App() {
   return (
       <>
       <h1>hello manifest 2</h1>
-    <div style={{marginTop:'40px',justifyContent:'space-around',display:'flex',flexWrap:'wrap', width:'90%', margin:'auto'}}>
+    <div >
       
       {pokemonData?.map((poke) => {
         return (
-          <div style={{width: '400px',height:'330px', border:'2px solid #000000', margin:'30px 10px'}}>
-              <div style={{padding:'5px 10px'}}>
-                <p style={{fontWeight:'bold',textTransform:'capitalize'}}> {poke.name}</p>
+          <div >
+              <div >
+                <p > {poke.name}</p>
               </div>
-              <img style={{height: '300px', width:'300px'}} alt="pokemon" src={`https://img.pokemondb.net/artwork/large/${poke.name}.jpg`}/>
+              <img  alt="pokemon" src={`https://img.pokemondb.net/artwork/large/${poke.name}.jpg`}/>
           </div>
         )
       })}
