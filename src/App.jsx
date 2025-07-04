@@ -13,6 +13,8 @@ function App() {
     fetchData();
   },[])
   return (
+      <>
+      <h1>hello</h1>
     <div style={{marginTop:'40px',justifyContent:'space-around',display:'flex',flexWrap:'wrap', width:'90%', margin:'auto'}}>
       
       {pokemonData?.map((poke) => {
@@ -29,6 +31,7 @@ function App() {
 
       </div>
     </div>
+  </>
   );
 }
 
