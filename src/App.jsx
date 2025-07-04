@@ -14,7 +14,7 @@ function App() {
   },[])
   return (
       <>
-      <h1>hello manifest</h1>
+      <h1>hello manifest 2</h1>
     <div style={{marginTop:'40px',justifyContent:'space-around',display:'flex',flexWrap:'wrap', width:'90%', margin:'auto'}}>
       
       {pokemonData?.map((poke) => {
